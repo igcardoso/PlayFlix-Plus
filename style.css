@@ -411,8 +411,8 @@ section {
   top: 100%;
   transform: translateY(-100%);
   z-index: 1500;
-}
-
+} 
+ 
 .DivMenuFooter .Container{
   background-color: #000;
   position: ;
@@ -421,7 +421,7 @@ section {
 
 .DivMenuFooter .Container ul li{
   display: inline-block;
-  width: 129pt;
+  width: 32.6%;
   padding: 3%;
   border-radius: 8em;
   opacity: 0.5;
