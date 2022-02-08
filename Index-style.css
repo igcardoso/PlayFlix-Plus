@@ -223,6 +223,22 @@ section{
   z-index: 1;
 }
 
+
+.canais {
+  width: 200px;
+  border-radius: 8em;
+  box-shadow: 0.2px 4px 5px rgba(0,0,0,0.1);
+  background-color: var(--secondary-color);
+  position: relative;
+  overflow: hidden;
+}
+
+
+.canais img {
+  width: 100%;
+  z-index: 1;
+}
+
 .movie-info {
   color: #eee;
   display: flex;
