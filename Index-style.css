@@ -182,7 +182,8 @@ section{
 }
 
 .backgroundBlur{
-  
+  background:#0000006d;
+  backdrop-filter: blur(15px);
 }
 
 .swiper{
