@@ -153,6 +153,10 @@ section{
   align-items: center;
 }
 
+#trailer{
+  display: none;
+}
+
 .swiper{
   width: 950px;
 }
