@@ -279,39 +279,47 @@
   <div tabindex="18" class="swiper-button-next"></div>
   <div tabindex="19" class="swiper-button-prev"></div>
 </section>
-<div class="DivMenuFooter">
-  <nav class="Container">
-    <ul>
-      <li style="opacity: 1;" class="options"><a href="#"><button style="border-bottom: 2px solid red; font-size: 100%;" type="submit"><i class="fas fa-home"></i><br>Inicio</button></a></li>
-      <li class="options"><a href="#"><button style="font-size: 100%;" type="submit"><i class="fas fa-film"></i><br>Filmes</button></a></li>
-      <li class="options"><a href="#"><button style="font-size: 100%;" type="submit"><i class="fas fa-shapes"></i><br>Series</button></a></li>
-    </ul>
-  </nav>
-</div>
-<div class="conteudo">
+<!-- ===== sectionOne ===== -->
+<section>
+  <div class="swiper mySwiper container">
+    <div class="swiper-wrapper content">
 
-</div>
+    </div>
+  </div>
 
-<!-- Swiper JS -->
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <div class="DivMenuFooter">
+    <nav class="Container">
+      <ul>
+        <li style="opacity: 1;" class="options"><a href="#"><button style="border-bottom: 2px solid red; font-size: 100%;" type="submit"><i class="fas fa-home"></i><br>Inicio</button></a></li>
+        <li class="options"><a href="#"><button style="font-size: 100%;" type="submit"><i class="fas fa-film"></i><br>Filmes</button></a></li>
+        <li class="options"><a href="#"><button style="font-size: 100%;" type="submit"><i class="fas fa-shapes"></i><br>Series</button></a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="conteudo">
 
-<!-- Initialize Swiper -->
-<script>
-  var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 3,
-    spaceBetween: 30,
-    slidesPerGroup: 3,
-    loop: true,
-    loopFillGroupWithBlank: true,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-  });
-</script>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      slidesPerGroup: 3,
+      loop: true,
+      loopFillGroupWithBlank: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
 </body>
 </html>
