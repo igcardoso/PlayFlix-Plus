@@ -156,6 +156,7 @@ section{
 #trailerDiv{
   display: none;
   text-align: center;
+  height: 600px;
 }
 
 #trailerDiv button{
