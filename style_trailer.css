@@ -1,11 +1,11 @@
 @charset"UTF-8";
 
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-.containerTrailer iframe{
+.containerTrailer iframe {
   height: 100vh;
-    padding-bottom: 0;
+  padding-bottom: 0;
 }
