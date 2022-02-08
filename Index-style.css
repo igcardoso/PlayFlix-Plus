@@ -182,7 +182,9 @@ section{
 }
 
 .backgroundBlur{
+  position: absolute;
   backdrop-filter: blur(15px);
+  z-index: 4000;
 }
 
 .swiper{
