@@ -147,6 +147,7 @@ header .mainNavigationMenu .containerUl li{
 
 section{
   position: relative;  
+  position: absolute;
   margin-top: 4%;
   width: 100%;
   display: flex;
