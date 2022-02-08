@@ -315,26 +315,21 @@
 <!-- ===== sectionTwo ===== -->
 
 <section>
-  <div class="swiper mySwiper container">
-    <div class="swiper-wrapper content">
-      <div class=" canais">
-        <a href="SbtaoVivo.html"><button tabindex="" style="background: none; border: none;" type="button"><img src="https://www.themoviedb.org/t/p/original/uzERcfV2rSHNhW5eViQiO9hNiA7.jpg" alt="Duna"></button></a>
+  <div class="canais">
+    <a href="SbtaoVivo.html"><button tabindex="" style="background: none; border: none;" type="button"><img src="https://www.themoviedb.org/t/p/original/uzERcfV2rSHNhW5eViQiO9hNiA7.jpg" alt="Duna"></button></a>
 
-      <!-- ===== Card1 ===== -->
-    </div>
+    <!-- ===== Card1 ===== -->
   </div>
-  <div tabindex="20" class="swiper-button-next"></div>
-  <div tabindex="21" class="swiper-button-prev"></div>
 </section>
 <!-- ===== section3 ===== -->
 <div class="DivMenuFooter">
-  <nav class="Container">
-    <ul>
-      <li style="opacity: 1;" class="options"><a href="#"><button style="border-bottom: 2px solid red; font-size: 100%;" type="submit"><i class="fas fa-home"></i><br>Inicio</button></a></li>
-      <li class="options"><a href="#"><button style="font-size: 100%;" type="submit"><i class="fas fa-film"></i><br>Filmes</button></a></li>
-      <li class="options"><a href="#"><button style="font-size: 100%;" type="submit"><i class="fas fa-shapes"></i><br>Series</button></a></li>
-    </ul>
-  </nav>
+<nav class="Container">
+<ul>
+<li style="opacity: 1;" class="options"><a href="#"><button style="border-bottom: 2px solid red; font-size: 100%;" type="submit"><i class="fas fa-home"></i><br>Inicio</button></a></li>
+<li class="options"><a href="#"><button style="font-size: 100%;" type="submit"><i class="fas fa-film"></i><br>Filmes</button></a></li>
+<li class="options"><a href="#"><button style="font-size: 100%;" type="submit"><i class="fas fa-shapes"></i><br>Series</button></a></li>
+</ul>
+</nav>
 </div>
 <div class="conteudo">
 
@@ -345,21 +340,21 @@
 
 <!-- Initialize Swiper -->
 <script>
-  var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 3,
-    spaceBetween: 30,
-    slidesPerGroup: 3,
-    loop: true,
-    loopFillGroupWithBlank: true,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-  });
+var swiper = new Swiper(".mySwiper", {
+slidesPerView: 3,
+spaceBetween: 30,
+slidesPerGroup: 3,
+loop: true,
+loopFillGroupWithBlank: true,
+pagination: {
+el: ".swiper-pagination",
+clickable: true,
+},
+navigation: {
+nextEl: ".swiper-button-next",
+prevEl: ".swiper-button-prev",
+},
+});
 </script>
 </body>
 </html>
