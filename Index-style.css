@@ -160,9 +160,9 @@ section{
 
 #trailerDiv button{
   border-radius: 8em;
-  background-color: transparent;
+  background-color: red;
   border: 2px solid red;
-  opacity: 0.8;
+  opacity: 1;
   padding-left: 4%;
   padding-right: 4%;
   padding-top: 1%;
