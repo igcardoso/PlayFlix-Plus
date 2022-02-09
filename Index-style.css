@@ -211,7 +211,7 @@ section{
 .movie {
   width: 200px;
   border-radius: 3px;
-  box-shadow: 2pt 2pt 4pt black;
+  box-shadow: 6pt 6pt 10pt black;
   background-color: var(--secondary-color);
   position: relative;
   overflow: hidden;
