@@ -228,9 +228,8 @@ section{
   width: 32%;
   padding: 4vh;
   border-radius: 0.9em;
-  box-shadow: 0.2px 4px 5px rgba(0,0,0,0.1);
+  box-shadow: 6pt 6pt 10pt black;
   background-color: #242424;
-  box-shadow: 4px 4px 4px black;
   position: relative;
   overflow: hidden;
 }
