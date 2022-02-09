@@ -130,9 +130,6 @@ header .mainNavigationMenu .containerUl li{
 
 .featuredBackgroundImage{
   position: relative;
-  background-image: url('https://www.themoviedb.org/t/p/original/4NybrtAXRtJd2h83fOTPGftz3LI.jpg');
-  background-position: center;
-  background-size: cover;
   width: 100%;
   height: 320pt;
 }
