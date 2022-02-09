@@ -225,10 +225,6 @@ section{
 
 
 .canais {
-  align-items: center;
-  align-content: center;
-  justify-items: center;
-  justify-content: center;
   width: 32%;
   height: 150pt;
   border-radius: 0.9em;
@@ -241,6 +237,8 @@ section{
 
 .canais img {
   width: 40%;
+  margin-top: 85pt;
+  margin-bottom: 85pt;
   z-index: 1;
 }
 
