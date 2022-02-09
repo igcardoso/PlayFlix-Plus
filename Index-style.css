@@ -230,6 +230,7 @@ section{
   border-radius: 0.9em;
   box-shadow: 0.2px 4px 5px rgba(0,0,0,0.1);
   background-color: #242424;
+  box-shadow: 4px 4px 4px black;
   position: relative;
   overflow: hidden;
 }
