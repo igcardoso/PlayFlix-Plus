@@ -250,7 +250,7 @@
 
 .swiper-pagination {
   position: absolute;
-  top: 10%;
+  margin-top: 10%;
   text-align: center;
   transition: .3s opacity;
   transform: translate3d(0,0,0);
