@@ -311,6 +311,10 @@ section{
   transition: transform 0.1s ease-in;
 }
 
+.movie:hover img{
+  opacity: 0.5;
+}
+
 .movie:hover .overview {
   transform: translateY(0)
 }
