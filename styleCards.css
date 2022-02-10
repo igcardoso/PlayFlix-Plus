@@ -55,7 +55,6 @@
 }
 
 .swiper-slide {
-  flex-shrink: 0;
   position: relative;
   transition-property: transform
 }
@@ -65,7 +64,6 @@
 }
 
 .swiper-autoheight,.swiper-autoheight .swiper-slide {
-  height: auto
 }
 
 .swiper-autoheight .swiper-wrapper {
