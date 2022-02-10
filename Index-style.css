@@ -180,13 +180,13 @@ section{
 }
 
 
-.card {
+section {
   position: relative;
   background: none;
 }
 
 .swiper-pagination {
-  margin-top: 20pt;
+  position: absolute;
 }
 
 .swiper-pagination-bullet {
