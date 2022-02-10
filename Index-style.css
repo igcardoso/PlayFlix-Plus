@@ -210,7 +210,7 @@ section{
 
 .movie {
   width: 200px;
-  border-radius: 3px;
+  border-radius: 0.8em;
   box-shadow: 6pt 6pt 10pt black;
   background-color: var(--secondary-color);
   position: relative;
