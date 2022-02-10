@@ -115,6 +115,7 @@ header .mainNavigationMenu .containerUl li{
 
 .featuredBackgroundImage #ulDivs .LeftInformation img{
   border-radius: 0.8em;
+  box-shadow: 6pt 6pt 10pt black;
 }
 
 .featuredBackgroundImage #ulDivs div{
