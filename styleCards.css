@@ -202,8 +202,8 @@
   border: 2px solid #fff;
   border-radius: 8em;
   top: 50%;
-  width: 10%;
-  height: var(--swiper-navigation-size);
+  width: 4vh;
+  height:  4vh;
   margin-top: calc(0px - (var(--swiper-navigation-size)/ 2));
   z-index: 10;
   cursor: pointer;
