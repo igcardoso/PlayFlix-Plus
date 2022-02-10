@@ -186,8 +186,7 @@ section{
 }
 
 .swiper-pagination {
-  position: absolute;
-  margin-top: 4%;
+  margin-top: 20pt;
 }
 
 .swiper-pagination-bullet {
