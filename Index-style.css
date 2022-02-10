@@ -311,6 +311,10 @@ section{
   transition: transform 0.1s ease-in;
 }
 
+.movie:hover img{
+  backdrop-filter: blur(15px);
+}
+
 .movie:hover .overview {
   transform: translateY(0)
 }
