@@ -186,13 +186,13 @@ section{
 }
 
 .swiper-pagination {
-  position: absolute;
+  
 }
 
 .swiper-pagination-bullet {
-  height: 10px;
-  width: 26px;
-  border-radius: 25px;
+  height: 5%;
+  width: 5%;
+  border-radius: 8em;
   background: red;
 }
 
