@@ -371,6 +371,10 @@ section{
   font-weight: 600;
 }
 
+.movie{
+  position: relative;
+}
+
 .play {
   background-color: transparent;
   position: absolute;
