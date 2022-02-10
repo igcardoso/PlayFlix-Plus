@@ -5,6 +5,10 @@
   <meta http-equiv="X-UA-Comaptible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta content="PlayFlix, Filmes online, Séries online, Filme online, Séries online, Filmes dublado, Filmes legendado, Séries dublado, Séries legendado, Filmes online dublado, Filmes grátis, Assistir filmes, Assistir filmes online, Assistir filmes grátis, Assistir filmes dublado, Assistir filmes legendado, Assistir séries grátis, Assistir séries dublado, Assistir séries legendado, PlayFlix, PlayFlix filmes, PlayFlix séries, Assistir PlayFlix, Assistir filmes 1080p, Assistir filmes 720p, Assistir filmes no celular, Assistir filmes mobile, Assistir séries no celular, PlayFlix grátis" />
+  <!-- ===== Link Swiper's Js ===== -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js" type="text/javascript" charset="utf-8"></script>
+  <!-- ===== Link Swiper's CSS ===== -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" type="text/css" />
   <!-- ===== Link Swiper's CSS ===== -->
   <link rel="stylesheet" href="styleCards.css" />
   <!-- ===== Fontawesome CDN Link ===== -->
@@ -13,8 +17,22 @@
   <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet" />
   <!-- ===== link CSS ===== -->
   <link rel="stylesheet" href="Index-style.css" title="style" type="text/css" />
-  <!-- ===== link js ===== -->
+  <!-- ===== link js =====   -->
   <script src="script.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript" charset="utf-8">
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      effect: "fade",
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev"
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
   <title>PlayFlix+</title>
   <!--<title>Card with Sliding Feature</title>-->
 </head>
