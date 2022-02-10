@@ -319,7 +319,7 @@ section{
 }
 
 .movie:hover .cardBackgroundImage{
-  transform: scale(1.07);
+  transform: scale(2.1);
   z-index: 10;
 }
 
