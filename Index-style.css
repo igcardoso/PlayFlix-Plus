@@ -82,7 +82,7 @@ header .mainNavigationMenu .containerUl li{
 
 .featuredBackgroundImage #ulDivs .RightInformation .UlButtons li .ButtonTwo:hover{
   transform: scale(1.1);
-  background: #fff;
+  background: transparent;
   color: red;
 }
 
