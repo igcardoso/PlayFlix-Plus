@@ -316,8 +316,7 @@ section{
 }
 
 .movie:hover .know-more {
-  margin-top: 0;
-  margin-left: 0;
+  transform: translateX(-100%);
   opacity: 1;
 }
 
