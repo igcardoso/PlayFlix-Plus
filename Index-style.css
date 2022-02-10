@@ -216,6 +216,9 @@ section{
   background-color: var(--secondary-color);
   position: relative;
   overflow: hidden;
+  
+  -webkit-transition: 0.5s left,0.5s width,0.5s opacity,0.5s;
+  transition: 0.5s left,0.5s width,0.5s opacity,0.5s;
 }
 
 
