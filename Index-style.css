@@ -316,6 +316,10 @@ section{
   z-index: 10;
 }
 
+.play{
+  z-index: 20;
+}
+
 .movie:hover .overview {
   transform: translateY(0)
 }
