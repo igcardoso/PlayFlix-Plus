@@ -190,8 +190,8 @@ section{
 }
 
 .swiper-pagination-bullet {
-  height: 20%;
-  width: 20%;
+  height: 20pt;
+  width: 20pt;
   border-radius: 8em;
   background: red;
 }
