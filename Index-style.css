@@ -277,7 +277,7 @@ section{
   left: 98%;
   transform: translateX(-98%);
   background-color: var(--primary-color);
-  padding: 0.52rem 0.52rem;
+  padding: 0.52% 0.52%;
   border-radius: 8em;
   font-weight: bold;
 }
