@@ -379,7 +379,7 @@ section{
 
 .know-more {
   background-color: red;
-  margin-left: -200pt;
+  margin-right: 100%;
   opacity: 0;
 
   -webkit-transition: 0.5s left,0.5s width,0.5s opacity,0.5s;
