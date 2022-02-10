@@ -312,7 +312,7 @@ section{
 }
 
 .movie:hover img{
-  backdrop-filter: blur(15px);
+  filter: blur(15px);
 }
 
 .movie:hover .overview {
