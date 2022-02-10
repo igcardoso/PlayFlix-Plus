@@ -151,7 +151,6 @@ section{
   position: relative;  
   margin-top: 2%;
   width: 100%;
-  padding: 2%;
   display: flex;
   align-items: center;
 }
@@ -217,9 +216,6 @@ section{
   background-color: var(--secondary-color);
   position: relative;
   overflow: hidden;
-  
-  -webkit-transition: 0.5s left,0.5s width,0.5s opacity,0.5s;
-  transition: 0.5s left,0.5s width,0.5s opacity,0.5s;
 }
 
 
@@ -316,7 +312,13 @@ section{
   transition: transform 0.1s ease-in;
 }
 
-.movie:hover{
+.movie .cardBackgroundImage{
+  
+  -webkit-transition: 0.5s left,0.5s width,0.5s opacity,0.5s;
+  transition: 0.5s left,0.5s width,0.5s opacity,0.5s;
+}
+
+.movie:hover .cardBackgroundImage{
   transform: scale(1.07);
   z-index: 10;
 }
