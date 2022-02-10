@@ -318,6 +318,7 @@ section{
 .movie:hover .know-more {
   margin-top: 0;
   margin-left: 0;
+  opacity: 1;
 }
 
 .movie:hover img{
@@ -379,6 +380,7 @@ section{
 .know-more {
   background-color: red;
   margin-left: -200pt;
+  opacity: 0;
 
   -webkit-transition: 0.5s left,0.5s width,0.5s opacity,0.5s;
   transition: 0.5s left,0.5s width,0.5s opacity,0.5s;
