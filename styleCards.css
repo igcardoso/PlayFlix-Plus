@@ -198,12 +198,12 @@
 
 .swiper-button-next,.swiper-button-prev {
   position: absolute;
-  padding: 10%;
+  padding: 5%;
   border: 2px solid #fff;
   border-radius: 8em;
   top: 50%;
-  width: 4vh;
-  height:  4vh;
+  width: calc(var(--swiper-navigation-size)/44 * 27);
+  height: var(--swiper-navigation-size);
   margin-top: calc(0px - (var(--swiper-navigation-size)/ 2));
   z-index: 10;
   cursor: pointer;
@@ -221,7 +221,7 @@
 
 .swiper-button-next:after,.swiper-button-prev:after {
   font-family: swiper-icons;
-  font-size: 10px;
+  font-size: 24%;
   text-transform: none!important;
   letter-spacing: 0;
   text-transform: none;
