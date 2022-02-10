@@ -75,13 +75,13 @@ header .mainNavigationMenu .containerUl li{
 }
 
 .featuredBackgroundImage #ulDivs .RightInformation .UlButtons li .ButtonOne:hover{
-  transform: scale(1.0);
+  transform: scale(1.2);
   background:  #ff1b1b;
   border: none;
 }
 
 .featuredBackgroundImage #ulDivs .RightInformation .UlButtons li .ButtonTwo:hover{
-  transform: scale(2.7);
+  transform: scale(1.2);
   background: #fff;
   color: red;
 }
