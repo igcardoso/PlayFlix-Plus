@@ -198,6 +198,8 @@
 
 .swiper-button-next,.swiper-button-prev {
   position: absolute;
+  background: rgb(0,0,0);
+  background-image: linear-gradient(to right,rgba(0,0,0,0.0) 0, rgba(0, 0, 0 , 0) 90%, var(--primary-color) 100%);
   top: 50%;
   width: calc(var(--swiper-navigation-size)/44 * 27);
   height: var(--swiper-navigation-size);
