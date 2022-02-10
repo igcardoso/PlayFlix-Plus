@@ -179,16 +179,6 @@ section{
   width: 950px;
 }
 
-
-section {
-  position: relative;
-  background: none;
-}
-
-.swiper-pagination {
-  position: absolute;
-}
-
 .swiper-pagination-bullet {
   height: 10px;
   width: 26px;
