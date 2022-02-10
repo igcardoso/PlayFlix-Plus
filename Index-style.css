@@ -311,8 +311,9 @@ section{
   transition: transform 0.1s ease-in;
 }
 
-.cardBackgroundImage:hover{
+.movie:hover .cardBackgroundImage{
   opacity: 0.5;
+  z-index: 10;
 }
 
 .movie:hover .overview {
@@ -323,6 +324,7 @@ section{
   margin-top: 0;
   margin-left: 0;
   opacity: 1;
+  z-index: 20;
 }
 
 #tags {
