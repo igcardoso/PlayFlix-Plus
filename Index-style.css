@@ -323,7 +323,7 @@ section{
 }
 
 .movie:hover img{
-  filter: blur(1px);
+  backdrop-filter: blur(1px);
   z-index: 8;
 }
 
