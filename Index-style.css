@@ -311,7 +311,7 @@ section{
   transition: transform 0.1s ease-in;
 }
 
-.movie:hover img{
+.movie:hover .cardBackgroundImage{
   opacity: 0.5;
 }
 
