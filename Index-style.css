@@ -313,7 +313,7 @@ section{
 
 .movie:hover .cardBackgroundImage{
   opacity: 0.5;
-  filter: blur(15px);
+  filter: blur(6px);
   z-index: 10;
 }
 
