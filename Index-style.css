@@ -253,6 +253,18 @@ section{
   letter-spacing: 0.5px;
 }
 
+.movie-info .iconProducer{
+  position: absolute;
+  margin-top: 12pt;
+  border: none;
+  border-radius: 0.8em;
+  box-shadow: 6pt 6pt 10pt black;
+  width: 45pt;
+  height: 45pt;
+  background-position: center; 
+  background-size: cover;
+}
+
 .movie-info h3 {
   margin-top: 0;
   margin-left: 30%;
