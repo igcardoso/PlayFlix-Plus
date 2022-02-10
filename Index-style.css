@@ -280,6 +280,7 @@ section{
   padding: 4% 4%;
   border-radius: 8em;
   font-weight: bold;
+  font-size: 100%;
 }
 
 .movie-info span.green {
