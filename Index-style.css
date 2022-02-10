@@ -481,6 +481,7 @@ header .mainNavigationMenu .containerUl{
 
 .swiper-button-prev {
   color: red;
+  opacity: 1;
   display: none;
 }
 
