@@ -513,8 +513,8 @@ section {
   font-weight: bold;
   transform: scale(1.50);
   background: red;
-  width: 28%;
-  height: 28%;
+  width: 4vh;
+  height: 4vh;
 }
 
 .movie-info h3{
