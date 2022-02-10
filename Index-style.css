@@ -507,7 +507,7 @@ section {
 }
 
 .movie:hover .know-more {
-  font-size: 30pt;
+  font-weight: bold;
   background: red;
   width: 30%;
   padding: 10%;
