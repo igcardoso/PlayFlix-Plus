@@ -312,8 +312,8 @@ section{
   transition: transform 0.1s ease-in;
 }
 
-.movie:hover .cardBackgroundImage{
-  filter: blur(6px);
+.movie:hover{
+  transform: scale(1.07);
   z-index: 10;
 }
 
