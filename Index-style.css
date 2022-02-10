@@ -308,7 +308,7 @@ section{
   padding: 1rem;
   max-height: 100%;
   transform: translateY(101%);
-  transition: transform 0.2s ease-in;
+  transition: transform 0.1s ease-in;
 }
 
 .movie:hover .overview {
@@ -319,12 +319,6 @@ section{
   margin-top: 0;
   margin-left: 0;
   opacity: 1;
-  z-index: 10;
-}
-
-.movie:hover img{
-  filter: blur(15px);
-  z-index: 8;
 }
 
 #tags {
@@ -369,10 +363,6 @@ section{
   border: 5px solid orange;
   font-size: 20px;
   font-weight: 600;
-}
-
-.movie{
-  position: relative;
 }
 
 .play {
