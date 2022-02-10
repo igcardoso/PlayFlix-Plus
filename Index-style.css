@@ -517,6 +517,10 @@ section {
   display: none;
 }
 
+.movie-info .iconProducer{
+  display: none;
+}
+
 .DivMenuFooter{
   position: fixed;
   z-index: 15;
