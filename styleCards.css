@@ -202,7 +202,7 @@
   border: 2px solid #fff;
   border-radius: 8em;
   top: 50%;
-  width: calc(var(--swiper-navigation-size)/44 * 27);
+  width: 10%;
   height: var(--swiper-navigation-size);
   margin-top: calc(0px - (var(--swiper-navigation-size)/ 2));
   z-index: 10;
