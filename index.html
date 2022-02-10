@@ -5,34 +5,16 @@
   <meta http-equiv="X-UA-Comaptible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta content="PlayFlix, Filmes online, Séries online, Filme online, Séries online, Filmes dublado, Filmes legendado, Séries dublado, Séries legendado, Filmes online dublado, Filmes grátis, Assistir filmes, Assistir filmes online, Assistir filmes grátis, Assistir filmes dublado, Assistir filmes legendado, Assistir séries grátis, Assistir séries dublado, Assistir séries legendado, PlayFlix, PlayFlix filmes, PlayFlix séries, Assistir PlayFlix, Assistir filmes 1080p, Assistir filmes 720p, Assistir filmes no celular, Assistir filmes mobile, Assistir séries no celular, PlayFlix grátis" />
-  <!-- ===== Link Swiper's Js ===== -->
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js" type="text/javascript" charset="utf-8"></script>
   <!-- ===== Link Swiper's CSS ===== -->
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" type="text/css" />
-  <!-- ===== Link Swiper's CSS ===== -->
-  <link rel="stylesheet" href="" />
+  <link rel="stylesheet" href="styleCards.css" />
   <!-- ===== Fontawesome CDN Link ===== -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
   <!-- ===== Fontawesome CSS link ===== -->
   <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet" />
   <!-- ===== link CSS ===== -->
   <link rel="stylesheet" href="Index-style.css" title="style" type="text/css" />
-  <!-- ===== link js =====   -->
-  <script src="" type="text/javascript" charset="utf-8"></script>
-  <script type="text/javascript" charset="utf-8">
-    var swiper = new Swiper(".mySwiper", {
-      spaceBetween: 30,
-      effect: "fade",
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev"
-      },
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-    });
-  </script>
+  <!-- ===== link js ===== -->
+  <script src="script.js" type="text/javascript" charset="utf-8"></script>
   <title>PlayFlix+</title>
   <!--<title>Card with Sliding Feature</title>-->
 </head>
@@ -47,33 +29,27 @@
       </ul>
     </nav>
   </header>
-  <div class="swiper mySwiper">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide">
-        <div class="featuredBackgroundImage">
-          <div class="gradient">
-            <ul id="ulDivs">
-              <div class="RightInformation">
-                <ul class="UlButtons">
-                  <h1>Nova Ordem Espacial</h1>
-                  <p>
-                    Perseguindo detritos espaciais e sonhos distantes no ano de 2092, quatro desajustados descobrem segredos explosivos durante a tentativa de comércio de um humanoide.
-                  </p>
-                  <li><a href="https://drive.google.com/file/d/1f3fQcpmhV00ZIGm5NuGxURArRIrIXZeQ/view?usp=sharing"><button class="ButtonOne" tabindex="4" type="submit">Assistir</button></a></li>
-                  <li><button onclick="trailer('trailerDiv')" class="ButtonTwo" tabindex="5" type="submit">Trailer</button></li>
-                </ul>
-              </div>
-              <div class="LeftInformation">
-                <img width="230px" src="https://www.themoviedb.org/t/p/original/f32ne52ClTPFL9Ew2aPUhKoVn9e.jpg" alt="ImageCard">
-              </div>
-            </ul>
-          </div>
+  <div class="featuredBackgroundImage">
+    <div class="gradient">
+      <ul id="ulDivs">
+        <div class="RightInformation">
+          <ul class="UlButtons">
+            <h1>Nova Ordem Espacial</h1>
+            <p>
+              Perseguindo detritos espaciais e sonhos distantes no ano de 2092, quatro desajustados descobrem segredos explosivos durante a tentativa de comércio de um humanoide.
+            </p>
+            <li><a href="https://drive.google.com/file/d/1f3fQcpmhV00ZIGm5NuGxURArRIrIXZeQ/view?usp=sharing"><button class="ButtonOne" tabindex="4" type="submit">Assistir</button></a></li>
+            <li><button onclick="trailer('trailerDiv')" class="ButtonTwo" tabindex="5" type="submit">Trailer</button></li>
+          </ul>
         </div>
-      </div>
+        <div class="LeftInformation">
+          <img width="230px" src="https://www.themoviedb.org/t/p/original/f32ne52ClTPFL9Ew2aPUhKoVn9e.jpg" alt="ImageCard">
+        </div>
+      </ul>
     </div>
   </div>
   <div id="trailerDiv">
-    <!--  <a href="aa00003.html"><button tabindex="" type="submit">Trailer Dublado</button></a>  -->
+  <!--  <a href="aa00003.html"><button tabindex="" type="submit">Trailer Dublado</button></a>  -->
     <br>
     <a href="aa00004.html"><button tabindex="" type="submit">Trailer Legendado</button></a>
   </div>
@@ -480,10 +456,25 @@
 </div>
 
 <!-- Swiper JS -->
-<script src=""></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
 <!-- Initialize Swiper -->
 <script>
+var swiper = new Swiper(".mySwiper", {
+slidesPerView: 3,
+spaceBetween: 30,
+slidesPerGroup: 3,
+loop: true,
+loopFillGroupWithBlank: true,
+pagination: {
+el: ".swiper-pagination",
+clickable: true,
+},
+navigation: {
+nextEl: ".swiper-button-next",
+prevEl: ".swiper-button-prev",
+},
+});
 </script>
 </body>
 </html>
