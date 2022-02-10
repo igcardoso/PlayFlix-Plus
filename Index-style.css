@@ -193,7 +193,7 @@ section{
   height: 10px;
   width: 26px;
   border-radius: 25px;
-  background: #fff;
+  background: red;
 }
 
 .swiper-button-next, .swiper-button-prev {
