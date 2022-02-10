@@ -321,6 +321,10 @@ section{
   opacity: 1;
 }
 
+.movie:hover img{
+  filter: blur(15px);
+}
+
 #tags {
   width: 80%;
   display: flex;
