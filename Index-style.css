@@ -321,7 +321,7 @@ section{
   opacity: 1;
 }
 
-.movie:hover{
+.movie:hover img{
   filter: blur(15px);
 }
 
