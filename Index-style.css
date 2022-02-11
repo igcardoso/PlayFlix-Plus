@@ -387,7 +387,7 @@ section{
 
 .know-more {
   background-color: red;
-  margin-left: -200pt;
+  margin-left: 0;
   opacity: 0;
 
   -webkit-transition: 0.4s left,0.4s width,0.4s opacity,0.4s;
