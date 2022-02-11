@@ -32,7 +32,7 @@ header {
   z-index: 10;
 }
 
-#film{
+header #film{
   opacity: 1;
   color: #fff;
   background: none;
