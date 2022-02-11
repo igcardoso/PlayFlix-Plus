@@ -151,7 +151,7 @@ header .mainNavigationMenu .containerUl li{
 section{
   position: relative;  
   margin-top: 2%;
-  width: 1384px;
+  width: 100%;
   display: flex;
   align-items: center;
 }
