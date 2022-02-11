@@ -61,6 +61,11 @@ header .mainNavigationMenu .containerUl li{
   font-size: 30pt;
 }
 
+.featuredBackgroundImage #logotipo{
+  display: block;
+}
+
+
 .featuredBackgroundImage #ulDivs .RightInformation p{
   font-size: 9pt;
 }
