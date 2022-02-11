@@ -250,6 +250,7 @@ section{
 }
 
 .contentionRandomTrailers{
+  margin-bottom: 23%;
   background: rgba(0,0,0,);
   background-image: linear-gradient(to left,rgba(0,0,0,0.0) 0, rgba(0, 0, 0 , 0) 50%, #000 100%);
   width: 100%;
