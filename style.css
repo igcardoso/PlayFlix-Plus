@@ -57,6 +57,7 @@ header .mainNavigationMenu .containerUl li{
 }
 
 .featuredBackgroundImage #ulDivs .RightInformation h1{
+  display: none;
   font-size: 30pt;
 }
 
