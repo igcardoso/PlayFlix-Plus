@@ -32,7 +32,7 @@ header {
   z-index: 10;
 }
 
-#film{
+header:hover #film{
   position: absolute;
   margin-left: 0;
   opacity: 0.6;
