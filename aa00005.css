@@ -32,7 +32,7 @@ header {
   z-index: 10;
 }
 
-header .mainNavigationMenu .containerUl .options .film{
+header .mainNavigationMenu .containerUl .options #film{
   position: absolute;
   margin-left: 0;
   opacity: 0.6;
