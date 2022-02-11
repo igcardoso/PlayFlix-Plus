@@ -1,5 +1,6 @@
 /**
-* Players - Reprodutor de vídeos
+* JLPlayer - Reprodutor de vídeos
+* @author Jeterson Lordano  -  jetersonlordano.com.br
 */
 
 (function () {
