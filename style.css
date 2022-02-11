@@ -241,7 +241,7 @@ section{
 }
 
 .contentionRandomTrailers{
-  position: absolute;
+  position: relative;
   left: 0;
 }
 
@@ -267,7 +267,7 @@ section{
 
 .contentionRandomTrailers video{
   width: 80%;
-  position: relative;
+  position: absolute;
   border-radius: 0.9em;
   z-index: 10;
 }
