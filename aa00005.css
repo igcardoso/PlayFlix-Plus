@@ -1,0 +1,583 @@
+/* === Google Font Import - Poppins === */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #0F0F0F;
+  --secondary-color: #373b69;
+}
+
+body {
+  background-color: var(--primary-color);
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+}
+
+header {
+  padding-left: 8%;
+  padding-right: 7%;
+  padding-top: 2%;
+  position: absolute;
+  margin-bottom: 6%;
+  width: 100%;
+  background: rgba(0,0,0,);
+  background-image: linear-gradient(to top,rgba(0,0,0,0.0) 0, rgba(0, 0, 0 , 0) 0.1%, var(--primary-color) 100%);
+  z-index: 10;
+}
+
+header .mainNavigationMenu .containerUl .options button{
+  color: #fff;
+  background: none;
+  border: none;
+  font-size: 12pt;
+}
+
+header .mainNavigationMenu .containerUl .options{
+  margin-left: 1.5%;
+  margin-right: 0;
+}
+
+header .mainNavigationMenu .containerUl #FirstOption{
+  margin-left: 65%;
+}
+
+header .mainNavigationMenu .containerUl li{
+  display: inline-block;
+}
+
+.DivMenuFooter{
+  display: none;
+}
+
+.featuredBackgroundImage #ulDivs .RightInformation h1{
+  font-size: 30pt;
+}
+
+.featuredBackgroundImage #ulDivs .RightInformation p{
+  font-size: 9pt;
+}
+
+.featuredBackgroundImage #ulDivs .RightInformation .UlButtons li{
+  margin-top: 7%;
+  display: inline-block;
+}
+
+.featuredBackgroundImage #ulDivs .RightInformation .UlButtons li .ButtonOne{
+  background:  red;
+  border: none;
+}
+
+.featuredBackgroundImage #ulDivs .RightInformation .UlButtons li .ButtonOne:hover{
+  transform: scale(1.1);
+  background:  #ff1b1b;
+  border: none;
+}
+
+.featuredBackgroundImage #ulDivs .RightInformation .UlButtons li .ButtonTwo:hover{
+  transform: scale(1.1);
+  background: transparent;
+}
+
+.featuredBackgroundImage #ulDivs .RightInformation .UlButtons li .ButtonTwo{
+  background-color: transparent;
+  border: 2px solid #fff;
+}
+
+.featuredBackgroundImage #ulDivs .RightInformation .UlButtons li button{
+  border-radius: 8em;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 10pt;
+  font-size: 12pt;
+  color: #fff;
+}
+
+.featuredBackgroundImage #ulDivs .RightInformation{
+  position: absolute;
+  position: relative;
+  margin-left: 8%;
+  margin-top: 15%;
+  max-width: 43%;
+}
+
+.featuredBackgroundImage #ulDivs .LeftInformation{
+  position: absolute;
+  margin-top: 8%;
+}
+
+.featuredBackgroundImage #ulDivs .LeftInformation img{
+  border-radius: 0.8em;
+  box-shadow: 6pt 6pt 10pt black;
+}
+
+.featuredBackgroundImage #ulDivs div{
+  display: inline-block;
+  margin-left: 3%;
+  background: none;
+  color: #fff;
+}
+
+.featuredBackgroundImage{
+  position: relative;
+  background-image: url('https://www.themoviedb.org/t/p/original/v3dRLz1YaNayAcvgkF6d5ba47N4.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 320pt;
+}
+
+.gradient {
+  background: rgba(0,0,0,);
+  background-image: linear-gradient(to bottom,rgba(0,0,0,0.0) 0, rgba(0, 0, 0 , 0) 40%, var(--primary-color) 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+}
+
+section{
+  position: relative;  
+  margin-top: 2%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+#trailerDiv{
+  display: none;
+  text-align: center;
+}
+
+#trailerDiv button{
+  border-radius: 8em;
+  background: red;
+  background-image: linear-gradient(to bottom,rgba(0,0,0,0.0) 0, rgba(0, 0, 0 , 0) 1%, rgb(0,0,0)  100%);
+  border: 2px solid red;
+  opacity: 1;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-top: 2%;
+  font-size: 10pt;
+  color: #fff;
+}
+
+.swiper{
+  width: 950px;
+}
+
+.swiper-pagination-bullet {
+  height: 10px;
+  width: 26px;
+  border-radius: 25px;
+  background: #fff;
+}
+
+.swiper-button-next, .swiper-button-prev {
+  opacity: 0.7;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.swiper-button-next:hover, .swiper-button-prev:hover {
+  opacity: 1;
+}
+
+/* ===== Cards ===== */
+
+.movie {
+  width: 200px;
+  border-radius: 0.8em;
+  box-shadow: 6pt 6pt 10pt black;
+  background-color: var(--secondary-color);
+  position: relative;
+  overflow: hidden;
+}
+
+
+.movie img {
+  width: 100%;
+  z-index: 1;
+}
+
+
+.canais {
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 23%;
+  width: 200pt;
+  height: 150pt;
+  padding: 25pt;
+  border-radius: 0.9em;
+  box-shadow: 6pt 6pt 10pt black;
+  background-color: #242424;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.canais img {
+  width: 95pt;
+  z-index: 1;
+}
+
+.movie-info {
+  color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem 1rem;
+  letter-spacing: 0.5px;
+}
+
+.movie-info .contentionProducerName{
+  width: 100%;
+}
+
+.movie-info .iconProducer{
+  position: absolute;
+  border: none;
+  border-radius: 1em;
+  box-shadow: 6pt 6pt 10pt black;
+  width: 45pt;
+  height: 45pt;
+  background-position: center; 
+  background-size: cover;
+}
+
+.movie-info .type{
+  position: absolute;
+  top: 2%;
+  background: none;
+  border-left: 2px solid red;
+  padding-left: 2%;
+  font-size: 100%;
+  z-index: 20;
+}
+
+.movie-info h3 {
+  margin-top: 0;
+  margin-left: 30%;
+}
+
+.movie-info span {
+  position: absolute;
+  top: 2%;
+  left: 98%;
+  transform: translateX(-98%);
+  background-color: var(--primary-color);
+  padding: 4% 4%;
+  border-radius: 8em;
+  font-weight: bold;
+  font-size: 100%;
+}
+
+.movie-info span.green {
+  color: lightgreen;
+  border-right: 2px solid green;
+  border-bottom: 2px solid green;
+  border-top: 2px solid green;
+}
+
+.movie-info span.orange {
+  color: orange;
+  border-right: 2px solid orange;
+  border-bottom: 2px solid orange;
+}
+
+.movie-info span.red {
+  color: red;
+  border-bottom: 2px solid red;
+}
+
+.overview {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  padding: 1rem;
+  max-height: 100%;
+  transform: translateY(101%);
+  transition: transform 0.1s ease-in;
+}
+
+.movie .cardBackgroundImage{
+  
+  -webkit-transition: 0.5s left,0.5s width,0.5s opacity,0.5s;
+  transition: 0.5s left,0.5s width,0.5s opacity,0.5s;
+}
+
+.movie:hover .cardBackgroundImage{
+  transform: scale(1.50);
+  z-index: 10;
+}
+
+.play{
+  z-index: 20;
+}
+
+.movie:hover .overview {
+  transform: translateY(0)
+}
+
+.movie:hover .know-more {
+  margin-top: 0;
+  margin-left: 0;
+  opacity: 1;
+  z-index: 20;
+}
+
+#tags {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+}
+
+.tag {
+  color: white;
+  padding: 10px 20px;
+  background-color: orange;
+  border-radius: 50px;
+  margin: 5px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.tag.highlight {
+  background-color: red;
+}
+.no-results {
+  color: white;
+}
+
+.page {
+  padding: 20px;
+  cursor: pointer;
+}
+
+.page.disabled {
+  cursor: not-allowed;
+  color: grey;
+}
+
+.current {
+  padding: 10px 20px;
+  border-radius: 50%;
+  border: 5px solid orange;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.play {
+  background-color: transparent;
+  position: absolute;
+  text-align: center;
+  margin-top: 48%;
+  width: 100%;
+}
+
+.know-more {
+  background-color: red;
+  margin-left: 0;
+  opacity: 0;
+
+  -webkit-transition: 0.4s left,0.4s width,0.4s opacity,0.4s;
+  transition: 0.4s left,0.4s width,0.4s opacity,0.4s;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: 0;
+  border-radius: 50px;
+  width: 63pt;
+  height: 47pt;
+}
+
+.containerTitle_card{
+  margin-top: 8%;
+  margin-bottom: 4%;
+  width: 95.6%;
+}
+
+.containerTitle_card button{
+  border-radius: 8em;
+  background-color: transparent;
+  border: 2px solid red;
+  opacity: 0.8;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  margin-top: 4%;
+  font-size: 10pt;
+  color: #fff;
+}
+
+
+.containerTitle_card{
+  text-align: right;
+}
+
+@media screen and (max-width: 700px) {
+
+header .mainNavigationMenu .containerUl .options{
+  display: none;
+}
+
+header {
+  padding-left: 0;
+  padding-right: 0;
+  background: rgba(0,0,0,);
+  background-image: linear-gradient(to top,rgba(0,0,0,0.0) 0, rgba(0, 0, 0 , 0) 90%, var(--primary-color) 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 6%;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+}
+
+header .mainNavigationMenu .containerUl{
+  text-align: center;
+}
+
+.featuredBackgroundImage #ulDivs .RightInformation p{
+  max-width: 94%;
+  margin-top: 4%;
+  margin-right: 4%;
+  font-size: 11pt;
+}
+
+.featuredBackgroundImage #ulDivs .LeftInformation{
+  display: none;
+}
+
+.featuredBackgroundImage #ulDivs .RightInformation{
+  position: absolute;
+  margin-top: 15%;
+  max-width: 100%;
+}
+
+.featuredBackgroundImage {
+  position: relative;
+  background-image: url('https://www.themoviedb.org/t/p/original/29LQnNV9l5IprbcVNHTha4Q72Tn.jpg');
+  background-position: center;
+  background-position-y: 23%;
+  background-size: cover;
+  width: 100%;
+  height: 320pt;
+}
+
+.gradient {
+  position: absolute;
+
+}
+
+.swiper-button-prev {
+  color: red;
+  opacity: 1;
+  display: none;
+}
+
+
+section {
+  position: relative;
+  width: 97%;
+  margin-left: 1.5%;
+  display: flex;
+  align-items: center;
+  z-index: 1000;
+}
+
+.movie .overview {
+  display: none;
+}
+
+.movie .know-more {
+  margin-top: 85%;
+  margin-left: 0;
+  width: 28%;
+  height: 28%;
+  background: #161616be;
+  opacity: 1;
+  
+  -webkit-transition: 0.1s left,0.1s width,0.1s opacity,0.1s;
+  transition: 0.1s left,0.1s width,0.1s opacity,0.1s;
+}
+
+.movie:hover .know-more {
+  font-weight: bold;
+  transform: scale(1.50);
+  background: red;
+  width: 4vh;
+  height: 4vh;
+}
+
+.movie-info h3{
+  display: none;
+}
+
+.movie-info .iconProducer{
+  display: none;
+}
+
+.DivMenuFooter{
+  position: fixed;
+  z-index: 15;
+  display: block;
+  width: 100%;
+  top: 100%;
+  transform: translateY(-100%);
+  z-index: 1500;
+}
+
+.DivMenuFooter .Container{
+  background-color: #000;
+  position: ;
+  text-align: center;
+}
+
+.DivMenuFooter .Container ul li{
+  display: inline-block;
+  width: 30.3%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  border-radius: 8em;
+  opacity: 0.5;
+  
+  -webkit-transition: 0.5s left,0.5s width,0.5s opacity,0.5s;
+  transition: 0.5s left,0.5s width,0.5s opacity,0.5s;
+}
+
+.DivMenuFooter .Container ul li:hover{
+  display: inline-block;
+  border-radius: 0;
+  opacity: 1;
+}
+
+.DivMenuFooter .Container ul li button{
+  background: none;
+  color: #fff;
+  border: none;
+}
+
+}
