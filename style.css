@@ -241,6 +241,14 @@ section{
   z-index: 1;
 }
 
+.conteudo{
+  width: 100%;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+
 .movie-info {
   color: #eee;
   display: flex;
