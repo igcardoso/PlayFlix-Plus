@@ -241,7 +241,7 @@ section{
 }
 
 .contentionRandomTrailers{
-  position: relative;
+  margin-left: 0;
 }
 
 .contentionRandomTrailers .title{
