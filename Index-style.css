@@ -264,6 +264,7 @@ section{
   top: 2%;
   background: none;
   border-left: 2px solid red;
+  padding-left: 2%;
   z-index: 20;
 }
 
