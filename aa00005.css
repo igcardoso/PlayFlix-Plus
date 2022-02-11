@@ -34,7 +34,10 @@ header {
 
 #film{
   opacity: 1;
-  
+  color: #fff;
+  background: none;
+  border: none;
+  font-size: 12pt;
   -webkit-transition: 0.5s left,0.5s width,0.5s opacity,0.5s;
   transition: 0.5s left,0.5s width,0.5s opacity,0.5s;
 }
