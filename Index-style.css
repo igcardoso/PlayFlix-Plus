@@ -259,6 +259,10 @@ section{
   background-size: cover;
 }
 
+.movie-info .type{
+  position: absolute;
+}
+
 .movie-info h3 {
   margin-top: 0;
   margin-left: 30%;
