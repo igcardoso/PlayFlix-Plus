@@ -261,6 +261,7 @@ section{
 
 .movie-info .type{
   position: absolute;
+  top: 2%;
   z-index: 20;
 }
 
