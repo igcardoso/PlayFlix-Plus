@@ -243,6 +243,7 @@ section{
 
 .conteudo{
   width: 100%;
+  text-align: center;
   align-content: center;
   align-items: center;
   justify-content: center;
