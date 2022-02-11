@@ -467,7 +467,7 @@ header .mainNavigationMenu .containerUl{
 }
 
 .featuredBackgroundImage #logotipo{
-  display: block;
+  display: none;
 }
 
 .featuredBackgroundImage #ulDivs .RightInformation p{
