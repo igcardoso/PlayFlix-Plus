@@ -244,9 +244,12 @@ section{
   letter-spacing: 0.5px;
 }
 
+.movie-info .contentionProducerName{
+  margin-top: ;
+}
+
 .movie-info .iconProducer{
   position: absolute;
-  margin-top: 12pt;
   border: none;
   border-radius: 1em;
   box-shadow: 6pt 6pt 10pt black;
