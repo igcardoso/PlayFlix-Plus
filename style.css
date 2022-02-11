@@ -243,11 +243,11 @@ section{
 
 .contentionRandomTrailers video{
   width: 80%;
+  border-radius: 0.9em;
 }
 
 .contentionRandomTrailers video source{
   width: 80%;
-  border-radius: 0.9em;
 }
 
 .contentionRandomTrailers{
