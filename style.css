@@ -253,6 +253,7 @@ section{
 }
 
 .contentionRandomTrailers:hover .title{
+  position: absolute;  
   top: 13%;
   left: 14.1%;
   color: #fff;
