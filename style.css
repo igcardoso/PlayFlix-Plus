@@ -246,7 +246,7 @@ section{
 
 .contentionRandomTrailers .title{
   position: absolute;
-  top: 0;
+  top: 5%;
   left: 0;
   color: #fff;
   z-index: 200;
