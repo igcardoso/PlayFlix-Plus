@@ -466,6 +466,10 @@ header .mainNavigationMenu .containerUl{
   display: block;
 }
 
+.featuredBackgroundImage #logotipo{
+  display: block;
+}
+
 .featuredBackgroundImage #ulDivs .RightInformation p{
   max-width: 94%;
   margin-top: 4%;
