@@ -57,7 +57,12 @@ header .mainNavigationMenu .containerUl li{
 }
 
 .featuredBackgroundImage #ulDivs .RightInformation h1{
+  display: none;
   font-size: 30pt;
+}
+
+.featuredBackgroundImage #logotipo{
+  display: block;
 }
 
 .featuredBackgroundImage #ulDivs .RightInformation p{
@@ -458,6 +463,14 @@ header {
 
 header .mainNavigationMenu .containerUl{
   text-align: center;
+}
+
+.featuredBackgroundImage #ulDivs .RightInformation h1{
+  display: block;
+}
+
+.featuredBackgroundImage #logotipo{
+  display: none;
 }
 
 .featuredBackgroundImage #ulDivs .RightInformation p{
