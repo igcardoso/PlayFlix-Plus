@@ -240,7 +240,7 @@ section{
   z-index: 1;
 }
 
-.contentionRandomTrailers video .title{
+.contentionRandomTrailers .title{
   position: absolute;
   z-index: 20;
 }
