@@ -242,7 +242,6 @@ section{
 
 .contentionRandomTrailers{
   position: relative;
-  left: 0;
 }
 
 .contentionRandomTrailers .title{
@@ -254,7 +253,6 @@ section{
 }
 
 .contentionRandomTrailers:hover .title{
-  position: absolute;  
   top: 13%;
   left: 14.1%;
   color: #fff;
@@ -267,7 +265,7 @@ section{
 
 .contentionRandomTrailers video{
   width: 80%;
-  position: absolute;
+  position: relative;
   border-radius: 0.9em;
   z-index: 10;
 }
