@@ -170,7 +170,7 @@ section{
 #trailerDiv button{
   border-radius: 8em;
   background: #ff5858;
-  border: 2px solid red;
+  border: none;
   opacity: 1;
   padding-left: 4%;
   padding-right: 4%;
