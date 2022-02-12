@@ -11,11 +11,11 @@ function trailer(el) {
 }
 
 function titleTrailerCartais(el) {
-  var left = document.getElementById(el).style.left;
-  if (left == "-200pt")
-    document.getElementById(el).style.left = '14.1%';
+  var display = document.getElementById(el).style.display;
+  if (display == "-200pt")
+    document.getElementById(el).style.display = '14.1%';
   else
-    document.getElementById(el).style.left = '-200pt';
+    document.getElementById(el).style.display = '-200pt';
 }
 
 var swiper = new Swiper(".mySwiper", {
