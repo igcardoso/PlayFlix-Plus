@@ -12,10 +12,10 @@ function trailer(el) {
 
 function titleTrailerCartais(el) {
   var display = document.getElementById(el).style.display;
-  if (display == "none")
-    document.getElementById(el).style.display = 'block';
-  else
+  if (display == "block")
     document.getElementById(el).style.display = 'none';
+  else
+    document.getElementById(el).style.display = 'block';
 }
 
 var swiper = new Swiper(".mySwiper", {
