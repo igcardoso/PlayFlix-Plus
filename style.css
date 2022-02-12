@@ -246,6 +246,7 @@ section{
 
 .contentionRandomTrailers .title{
   position: absolute;
+  top: 13%;
   left: -100%;
   opacity: 0;
   
@@ -263,6 +264,7 @@ section{
   border-left: 2px solid red;
   padding-left: 2%;
   z-index: 200;
+  transform: scale(1.7);
 }
 
 .contentionRandomTrailers video{
