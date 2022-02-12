@@ -11,8 +11,8 @@ function trailer(el) {
 }
 
 function titleTrailerCartais(el) {
-  var display = document.getElementById(el).style.left;
-  if (display == "-200pt")
+  var left = document.getElementById(el).style.left;
+  if (left == "-200pt")
     document.getElementById(el).style.left = '14.1%';
   else
     document.getElementById(el).style.left = '-200pt';
