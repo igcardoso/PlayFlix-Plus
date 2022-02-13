@@ -56,6 +56,10 @@ header .mainNavigationMenu .containerUl li{
   display: none;
 }
 
+.featuredBackgroundImage{
+  margin-bottom: 12%;
+}
+
 .featuredBackgroundImage #ulDivs .RightInformation h1{
   display: none;
   font-size: 30pt;
