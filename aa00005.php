@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head lang="pt-br">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Comaptible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta content="PlayFlix, Filmes online, Séries online, Filme online, Séries online, Filmes dublado, Filmes legendado, Séries dublado, Séries legendado, Filmes online dublado, Filmes grátis, Assistir filmes, Assistir filmes online, Assistir filmes grátis, Assistir filmes dublado, Assistir filmes legendado, Assistir séries grátis, Assistir séries dublado, Assistir séries legendado, PlayFlix, PlayFlix filmes, PlayFlix séries, Assistir PlayFlix, Assistir filmes 1080p, Assistir filmes 720p, Assistir filmes no celular, Assistir filmes mobile, Assistir séries no celular, PlayFlix grátis" />
+  <!-- ===== Link Swiper's CSS ===== -->
+  <link rel="stylesheet" href="styleCards.css" />
+  <!-- ===== Fontawesome CDN Link ===== -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <!-- ===== Fontawesome CSS link ===== -->
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet" />
+  <!-- ===== Link Icon Guia ===== -->
+  <link rel="icon" href="icon_guia.png" type="image/png" />
+  <!-- ===== css ===== -->
+  <style type="text/css" media="all">
+    /* === Google Font Import - Poppins === */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+      box-sizing: border-box;
+    }
+
+:root {
+      --primary-color: #0F0F0F;
+      --secondary-color: #373b69;
+    }
+
+    body {
+      background-color: var(--primary-color);
+      color: #fff;
+      font-family: 'Poppins', sans-serif;
+      height: 100vh;
+      padding: 4%;
+    }
+
+    .container {
+      text-align: center;
+      margin-top: 10vh;
+      margin-bottom: 10vh;
+    }
+    
+    .container button {
+      padding-top: 1%;
+      padding-bottom: 1%;
+      padding-left: 5%;
+      padding-right: 5%;
+      border-radius: 0.8em;
+      border: none;
+      background: #fff;
+    }
+  </style>
+  <title>PlayFlix+</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Ops! essa pagina está em manutenção, todos os filmes desta pagina se encontrão na página home.</h1>
+    <h3>Agradecemos a sua atenção.</h3>
+    <br />
+    <a href="index.html"><button type="button"><h2>Voltar</h2></button></a>
+  </iv>
+</body>
+</html>
