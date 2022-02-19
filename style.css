@@ -311,6 +311,7 @@ section{
 
 .movie-info .iconProducer{
   position: absolute;
+  padding: 2%;
   border: none;
   border-radius: 1em;
   box-shadow: 6pt 6pt 10pt black;
