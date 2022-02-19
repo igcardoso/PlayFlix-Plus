@@ -220,7 +220,6 @@ section{
 
 
 .movie img {
-  position: absolute;
   width: 100%;
   z-index: 1;
 }
@@ -302,7 +301,7 @@ section{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.5rem 1rem 1rem;
+  padding: 4%;
   letter-spacing: 0.5px;
 }
 
