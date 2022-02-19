@@ -220,7 +220,8 @@ section{
 
 
 .movie img {
-  width: 100%;
+  width: ;
+  height: 80%;
   z-index: 1;
 }
 
